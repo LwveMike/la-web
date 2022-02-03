@@ -28,3 +28,11 @@ Route::get('/contacts', function () {
 Route::get('/projects', function () {
     return view('projects');
 });
+
+Route::get('/onlyphp', function () {
+    return view('onlyphp');
+});
+
+Route::get('/nupotiaici', function () {
+    return redirect('/');
+});
